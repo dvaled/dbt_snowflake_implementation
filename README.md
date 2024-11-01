@@ -4,26 +4,45 @@ This project utilizes [dbt (Data Build Tool)](https://www.getdbt.com/) with [Sno
 
 ## Project Structure
 
-The main folders and files in this project are as follows:
-├── analyses
-├── macros
-│   └── pricing.sql
-├── models
-│   ├── marts
-│   │   ├── fct_orders.sql
-│   │   ├── int_order_items.sql
-│   │   ├── generic_tests.yml
-│   │   └── int_order_items_summary.sql
-│   └── staging
-│       ├── stg_tpch_line_items.sql
-│       ├── stg_tpch_orders.sql
-│       └── tpch_sources.yml
-├── tests
-│   ├── fct_orders_date_valid.sql
-│   └── fct_orders_discount.sql
-├── dbt_project.yml
-├── package-lock.yml
-└── packages.yml
+```The main folders and files in this project are as follows:```
+
+```├── analyses```
+
+```├── macros```
+
+```│   └── pricing.sql```
+
+```├── models```
+
+```│   ├── marts```
+
+```│   │   ├── fct_orders.sql```
+
+```│   │   ├── int_order_items.sql```
+
+```│   │   ├── generic_tests.yml```
+
+```│   │   └── int_order_items_summary.sql```
+
+```│   └── staging```
+
+```│       ├── stg_tpch_line_items.sql```
+
+```│       ├── stg_tpch_orders.sql```
+
+```│       └── tpch_sources.yml```
+
+```├── tests```
+
+```│   ├── fct_orders_date_valid.sql```
+
+```│   └── fct_orders_discount.sql```
+
+```├── dbt_project.yml```
+
+```├── package-lock.yml```
+
+```└── packages.yml```
 
 ### Folder Breakdown
 
